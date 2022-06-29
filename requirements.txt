@@ -1,0 +1,7 @@
+setuptools>=40.8.0
+wheel
+tensorflow>=2.0.0
+gym
+gym[atari]
+gym[mujoco]
+ray[rllib]
