@@ -1,6 +1,8 @@
-setuptools>=40.8.0
-wheel
-gym
+ray
+rllib[ray]
+tensorflow==2.9.1
+tensorflow-probability==0.17.0
+gym==0.21
 gym[atari]
-gym[mujoco]
-ray[rllib]
+gym[accept-rom-license]
+atari_py
